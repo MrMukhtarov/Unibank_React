@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.NetworkContainer{
+    padding: 1rem 5rem;
+}
+.Network{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.NetworkLeft{
+    display: flex;
+    align-items: center;
+    background-color: #FAFAFA;
+    border-radius: 10px;
+    padding: 3rem;
+}
+.NetworkLeftLeftH1{
+    font-size: 28px;
+    font-weight: 800;
+    color: #ff6400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 20px;
+}
+.NetworkLeftLeftP{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: rgba(0, 0, 0, 0.8);
+}
+.NetworkLeftLeftButton{
+    font-size: 14px;
+    display: inline-block;
+    font-weight: 700;
+    padding: 15px 40px;
+    background: #FF6400;
+    border-radius: 25px;
+    color: #fff;
+    text-decoration: none;
+    margin-top: 23px;
+    border: none;
+    cursor: pointer;
+}
+.NetworkRight{
+    background-image: url('https://unibank.az/assets/images/callcenter.svg');
+    background-position: top;
+    background-size: contain;
+    padding: 4rem;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-color: #FAFAFA;
+}
+.NetworkRightH1{
+    font-weight: 800;
+    font-size: 28px;
+    color: #ff6400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 20px;
+}
+.NetworkRightP{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: rgba(0, 0, 0, 0.8);
+    margin-bottom: 20px;
+}
+.NetworkRightButton{
+    font-size: 14px;
+    display: inline-block;
+    font-weight: 700;
+    padding: 15px 40px;
+    background: #FF6400;
+    border-radius: 25px;
+    color: #fff;
+    text-decoration: none;
+    margin-top: 23px;
+    border: none;
+    cursor: pointer;
+}

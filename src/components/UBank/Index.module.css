@@ -1,0 +1,44 @@
+.UBankContainer{
+    padding: 3rem 5rem;
+}
+.UBank{
+    background-color: #FAFAFA;
+    padding: 10px 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.UBankLeftH2{
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 28px;
+    color: #ff6400;
+    margin-bottom: 20px;
+}
+.UBankLeftP{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #000000;
+    margin-bottom: 30px;
+}
+.UBankLeftImages{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+.UBankLeftButton{
+    font-size: 14px;
+    color: #fff;
+    line-height: 20px;
+    margin-right: 12px;
+    border-radius: 25px;
+    text-decoration: none;
+    padding: 15px 45px;
+    box-shadow: 0 10px 10px -10px rgba(255,107,0,.51);
+    display: inline-block;
+    background: #FF6400;
+    border: none;
+    margin-top: 20px;
+    cursor: pointer;
+}

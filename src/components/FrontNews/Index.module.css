@@ -1,0 +1,71 @@
+.FrontNewsContainer{
+    padding: 2rem 5rem;
+}
+.FrontNews{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+.FrontNewsBoxp1{
+    font-family: CocoSharp,Arial;
+    font-weight: 700;
+    font-size: 16px;
+    color: #FF6400;
+    text-decoration: none;
+    display: block;
+    overflow: hidden;
+    line-height: normal;
+    margin-bottom: 10px;
+    transition: all .3s;
+}
+.FrontNewsBoxp2{
+    font-family: CocoSharp,Arial;
+    font-weight: 200;
+    font-size: 14px;
+    color: #000;
+    line-height: 23px;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 7;
+    -webkit-box-orient: vertical;
+    margin-bottom: 20px;
+    transition: all .3s;
+}
+.FrontNewsBoxspan{
+    line-height: 12px;
+    font-family: CocoSharp,Arial;
+    font-weight: 400;
+    font-size: 12px;
+    color: rgba(50,50,50,.5);
+    transition: all .3s;
+}
+.FrontNewsBox{
+    padding: 2rem;
+    background-color: #FAFAFA;
+    transition: all .3s;
+}
+.FrontNewsBox:hover{
+    background-color: #FF6400;
+}
+.FrontNewsBox:hover .FrontNewsBoxp1,.FrontNewsBox:hover .FrontNewsBoxp2,.FrontNewsBox:hover .FrontNewsBoxspan {
+    color: white;
+    cursor: pointer;
+    transition: all .3s;
+}
+.FrontNewsButton{
+    font-family: CocoSharp,Arial;
+    font-size: 14px;
+    border-radius: 25px;
+    background: #FF6400;
+    color: #fff;
+    padding: 17px 25px;
+    line-height: 16px;
+    border: none;
+    margin-top: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+.FrontNewsButtonDiv{
+    text-align: center;
+}

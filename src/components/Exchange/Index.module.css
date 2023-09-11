@@ -1,0 +1,154 @@
+.ExchangeContainer{
+    padding: 0 5rem;
+}
+.Exchange{
+    background-color: #FAFAFA;
+    padding: 2rem;
+}
+.ExchangeH1{
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 28px;
+    color: #ff6400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    margin-bottom: 50px;
+}
+.ExchangeBoxesBoxH4{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 18px;
+    color: #000000;
+    margin-bottom: 5px;
+}
+.ExchangeBoxesBoxDateSpan{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+    color: rgba(50, 50, 50, 0.5);
+}
+.ExchangeBoxesBoxTable{
+    margin-top: 30px;
+}
+.ExchangeBoxesBoxTableTh{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #acb3b8;
+    border-bottom: 2px solid #B1B1B1;
+}
+.ExchangeBoxesBoxTablHr{
+    background-color: grey;
+    height: 3px;
+    width: 100%;
+}
+.ExchangeBoxesBoxTableTd{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 14px;
+    color: #323232;
+    padding: 20px;
+}
+.ExchangeBoxes{
+    display: flex;
+    justify-content: space-between;
+}
+.ExchangeBottom{
+    background-color: white;
+    margin-top: 30px;
+    padding: 3rem 1rem;
+    border-radius: 10px;
+}
+.ExchangeBottomLeftH4{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 18px;
+    color: #000000;
+    margin-bottom: 5px;
+}
+.ExchangeBottomLeftSpan{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+    color: rgba(50, 50, 50, 0.5);
+}
+.ExchangeBottomRightUsdInput{
+    border: none;
+    padding: 10px 0;
+    outline: none;
+}
+.ExchangeBottomRightUsdInputDiv{
+    position: absolute;
+    top: 15px;
+    right: 5px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.ExchangeBottomRightUsd{
+    position: relative;
+    overflow: hidden;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 1px solid rgba(50,50,50,.1);
+    margin-bottom: 10px;
+    float: left;
+    width: 280px;
+}
+.ExchangeBottom{
+    display: flex;
+    justify-content: space-between;
+}
+.ExchangeBottomRightImg{
+    width: 20px;
+}
+.ExchangeBottomRight{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.ExchangeBottomRightArrowI{
+    color: #ff6400;
+}
+
+
+
+.ExchangeBottomRightAznInput{
+    border: none;
+    padding: 10px 0;
+    outline: none;
+}
+.ExchangeBottomRightAznInputDiv{
+    position: absolute;
+    top: 15px;
+    right: 5px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.ExchangeBottomRightAzn{
+    position: relative;
+    overflow: hidden;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 1px solid rgba(50,50,50,.1);
+    margin-bottom: 10px;
+    float: left;
+    width: 280px;
+}
+.ExchangeBottom{
+    display: flex;
+    justify-content: space-between;
+}
+.ExchangeBottomRightImg{
+    width: 20px;
+}
+.ExchangeBottomRight{
+    display: flex;
+    align-items: center;
+}
+.ExchangeBottomRightArrowI{
+    color: #ff6400;
+}

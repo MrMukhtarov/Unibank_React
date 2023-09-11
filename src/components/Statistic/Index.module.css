@@ -1,0 +1,48 @@
+.Statistic{
+    padding: 3rem 5rem;
+    display: flex;
+    justify-content: space-between;
+}
+.StatisticBox{
+    background-color: #FAFAFA;
+    padding: 50px 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    border-radius: 10px;
+}
+.StatisticBoxh4{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 18px;
+    color: #000000;
+    margin-bottom: 15px;
+}
+.StatisticBoxspan1{
+    font-weight: 700;
+    font-size: 52px;
+    color: #ff6400;
+    margin-bottom: 10px;
+}
+.StatisticBoxspan2{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    color: #000000;
+}
+.StatisticBoxButton{
+    color: #fff;
+    font-weight: 700;
+    text-decoration: none;
+    line-height: 20px;
+    background: #FF6400;
+    border-radius: 25px;
+    font-size: 14px;
+    font-family: CocoSharp,Arial;
+    padding: 12px 40px;
+    box-shadow: 0 10px 10px -10px rgba(255,107,0,.51);
+    display: inline-block;
+    border: none;
+    margin-top: 30px;
+}
